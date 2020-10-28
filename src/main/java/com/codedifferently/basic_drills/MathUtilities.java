@@ -18,7 +18,7 @@ public class MathUtilities {
      * @return sum of `baseValue` and `difference`
      */
     public Long add(long baseValue, long difference) {
-        return null;
+        return baseValue + difference;
     }
 
     /**
@@ -27,7 +27,8 @@ public class MathUtilities {
      * @return sum of `baseValue` and `difference`
      */
     public Short add(short baseValue, short difference) {
-        return null;
+        Short sum = (short) (baseValue + difference);
+        return sum;
     }
 
     /**
@@ -36,7 +37,8 @@ public class MathUtilities {
      * @return sum of `baseValue` and `difference`
      */
     public Byte add(byte baseValue, byte difference) {
-        return null;
+        Byte sum = (byte) (baseValue + difference);
+        return sum;
     }
 
     /**
@@ -45,7 +47,9 @@ public class MathUtilities {
      * @return sum of `baseValue` and `difference`
      */
     public Float add(float baseValue, float difference) {
-        return null;
+        Float sum = (float) (baseValue + difference);
+        return sum;
+
     }
 
     /**
@@ -54,8 +58,9 @@ public class MathUtilities {
      * @return sum of `baseValue` and `difference`
      */
     public Double add(double baseValue, double difference) {
-        return null;
-    }
+        Double sum = (double) (baseValue + difference);
+        return sum;
+            }
 
     /**
      * @param baseValue  starting value
